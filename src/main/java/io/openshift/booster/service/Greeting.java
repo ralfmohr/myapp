@@ -21,6 +21,7 @@ public class Greeting {
     public static final String FORMAT = "Hello, %s!";
 
     private final String content;
+    private final String shipment = "F231";
 
     public Greeting() {
         this.content = null;
@@ -32,6 +33,9 @@ public class Greeting {
 
     public String getContent() {
         return content;
+    }
+    public String getShipment() {
+        return shipment;
     }
 }
 // end::snippet-greeting[]
