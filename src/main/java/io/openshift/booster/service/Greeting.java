@@ -21,7 +21,7 @@ public class Greeting {
     public static final String FORMAT = "Hello, %s!";
 
     private final String content;
-    private final String shipment = "F231yyx";
+    private final String shipment = "F231yycx";
 
     public Greeting() {
         this.content = null;
